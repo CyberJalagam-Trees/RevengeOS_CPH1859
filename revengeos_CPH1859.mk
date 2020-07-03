@@ -18,7 +18,7 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit some common AospExtended stuff
+# Inherit some common Revengeos stuff
 $(call inherit-product, vendor/revengeos/config/common.mk)
 
 # Inherit from oppo CPH1861
