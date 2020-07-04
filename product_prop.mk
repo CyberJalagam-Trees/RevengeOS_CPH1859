@@ -20,6 +20,14 @@
 PRODUCT_PRODUCT_PROPERTIES += \
    persist.camera.HAL3.enabled=1
 
+# Video Acceleration Enabled And HW debugging
+video.accelerate.hw=1
+debug.sf.hw=1
+debug.performance.tuning=1
+debug.egl.profiler=1
+debug.egl.hw=1
+debug.composition.type=gpu
+
 #
 # System Properties for Realme 1: CPH1859
 #
